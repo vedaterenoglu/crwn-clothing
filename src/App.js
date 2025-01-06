@@ -1,11 +1,9 @@
 /** @format */
 
-function App() {
-	return (
-		<div className='App'>
-			<h1>Draft</h1>
-		</div>
-	)
+import Categories from './components/categories/categories.component'
+
+const App = () => {
+	return <Categories />
 }
 
 export default App
