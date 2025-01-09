@@ -1,8 +1,8 @@
 /** @format */
 
 import { useState } from 'react'
-import FormInput from '../../components/form-input/form-input.component'
-import Button from '../../components/button/button.component'
+import FormInput from '../form-input/form-input.component'
+import Button from '../button/button.component'
 import './sign-up-form.styles.scss'
 import {
 	createAuthUserWithEmailAndPassword,
@@ -87,9 +87,7 @@ const SignUpForm = () => {
 					name='confirmPassword'
 					value={confirmPassword}
 				/>
-				<Button type='submit'>
-					Sign Up
-				</Button>
+				<Button type='submit'>Sign Up</Button>
 			</form>
 		</div>
 	)
