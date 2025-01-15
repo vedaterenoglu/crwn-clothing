@@ -1,6 +1,6 @@
 {
 	"name": "crwn-clothing",
-	"version": "0.1.1",
+	"version": "0.2.0",
 	"private": true,
 	"dependencies": {
 		"cra-template": "1.2.0",
@@ -9,7 +9,8 @@
 		"react-dom": "^18.0.0",
 		"react-router-dom": "^6.28.1",
 		"react-scripts": "5.0.1",
-		"sass": "^1.83.1"
+		"sass": "^1.83.1",
+		"styled-components": "^6.1.14"
 	},
 	"scripts": {
 		"start": "react-scripts start",

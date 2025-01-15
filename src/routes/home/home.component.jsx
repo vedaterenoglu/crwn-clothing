@@ -1,16 +1,15 @@
 /** @format */
 
 
-import Categories from '../../components/categories/categories.component'
+import Directory from '../../components/directory/directory.component'
 
 const Home = () => {
   
 	return (
-    <div>
-      <Categories />
-    </div>
-  
-)
+		<div>
+			<Directory />
+		</div>
+	)
 }
 
 export default Home
